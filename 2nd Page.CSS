@@ -1,0 +1,40 @@
+body {
+    background-image: url(depositphotos_74208933-Empty-wooden-table-and-modern-library-background.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+td, th{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+tr:first-child th {
+    background-color: rgba(96, 104, 104, 0.582);
+    color: rgb(0, 0, 0);
+}
+button {
+    cursor: pointer;
+    font-size: medium;
+}
+.button {
+    text-align: center;
+    
+}
+.head {
+    text-align: center;
+}
+.Books{
+    text-align: right;
+    font-size: larger;
+}
+
+
+
