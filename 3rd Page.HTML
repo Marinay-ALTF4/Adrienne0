@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adding Books!</title>
+    <link rel="stylesheet" href="Adding Books.css">
+</head>
+<body>
+    
+    <Button ><a href="2nd Page.html">Back</a></Button>
+
+    <div class="intro" align="center">
+    <h1>Welcome to Library</h1>
+    <p>Add your favorite books to read </p>
+    </div>
+    
+
+
+<br>
+<div class="border">
+    <label> Select Books:</label>
+    <br>
+    <label class="word">Category/Genre</label>
+    <select id="genre-select">
+        <option disabled selected>Select</option>
+        <option value="Fiction">Fiction</option>
+        <option value="Non-Fiction">Non-Fiction</option>
+        <option value="Fairytale">Fairytale</option>
+        <option value="Language">Language</option>
+        <option value="Classic">Classic</option>
+        <option value="Historical">Historical</option>
+    </select>
+    <br> <br>  
+
+    <div class="search-box">
+        <label for="books">Search:</label>
+        <input list="books" name="books" placeholder="Type a book title...">
+        <datalist id="books">
+            <optgroup label="Fiction">
+                <option value="Harry Potter and the Sorcerer's Stone"></option>
+            </optgroup>
+            <optgroup label="Non-Fiction">
+                <option value="The Power of Habit"></option>
+            </optgroup>
+            <optgroup label="Fairytale">
+                <option value="Cinderella"></option>
+                <option value="The Twelve Dancing Princesses"></option>
+                <option value="Beauty and the Beast"></option>
+            </optgroup>
+            <optgroup label="Language">
+                <option value="C++"></option>
+                <option value="Java"></option>
+                <option value="JavaScript"></option>
+                <option value="Python"></option>
+                <option value="HTML"></option>
+            </optgroup>
+        </datalist>
+        <br><br>
+        <button><a href="3rd Page.html">Submit</a></button>
+    </div>
+</div>
+</div><br>
+
+
+
+</div>
+</body>
+</html>
